@@ -1,0 +1,40 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.wrapper{
+    background-color: #f2f2f2;
+    width: 700px;
+    height: 800px;
+    border: 4px solid rgb(112, 112, 112);
+    margin: auto;
+    padding: 40px;
+    box-shadow: 0 0 12px black;
+    margin-top: 70px;
+    transition: all 1s ease-in-out;
+}
+.wrapper :hover{
+    transform: translate(100px);
+}
+.wrapper h2{
+    text-align: center;
+}
+label{
+    width: 100%;
+    height: 100px;
+    margin: 20px;
+
+}
+input{
+    width: 100%;
+    height: 45px;
+}
+span{
+    color:red;
+}
